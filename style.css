@@ -1,0 +1,84 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+.title {
+    display: grid;
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #242526;
+}
+
+.container {
+    display: grid;
+    border: 1px solid;
+    border-color: black;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+    margin: 0 auto;
+
+}
+.gridItem {
+    border: 1px solid;
+    border-color: black;
+    background-color: #383D46;
+}
+
+.changeColor {
+    background-color: #23a19b;
+    border: 1px solid;
+    border-color: black;
+}
+
+.button {
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#button {
+    border: 2px solid;
+}
+
+.clearGrid {
+    border: 1px solid;
+    border-color: black;
+}
+
+#button2 {
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #383D46;
+    border: 2px solid;
+    color: #23a19b;
+}
+
+#button3 {
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid;
+    background-color: #383D46;
+    color: #FF7272;
+}
+
+.button1{
+    text-align: center;
+}
