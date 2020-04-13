@@ -2,6 +2,10 @@
 
 From The Odin Project's [curriculum] (https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project?ref=lnav)
 
+The final project can be viewed at the link below.
+
+https://rueeazy.github.io/etch-a-sketch/
+
 
 ** 04/02/20 ** 
 
